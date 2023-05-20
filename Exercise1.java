@@ -35,4 +35,13 @@ public class Exercise1 {
 		}
 	
 	}
+	private static void print_array_copy(int[][] twodm) {
+		for (int i = 0; i < twodm.length; i++) {
+			for (int j = 0; j < twodm[0].length; j++) {
+				System.out.print(twodm[i][j] + " ");
+			}
+			System.out.println();
+		}
+
+	}
 }
